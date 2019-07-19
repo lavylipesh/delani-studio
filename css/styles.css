@@ -1,11 +1,85 @@
 .welcome {
     background-image:url("../images/h_img.jpg");
     text-align: center;
-    height: 650px;
+    color: white;
+    height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
 }
+.welcome img:last-child{
+    padding-top: 200px;
+}
 .about{
     text-align: center;
+}
+.service{
+    background-image: url("../images/s_image.jpg");
+    height: 350px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    
+}
+.contact{
+    background-image: url("../images/c_image.jpg");
+    height: 550px;
+    text-align: center;
+    color: white;
+
+
+    font-size: 14px;
+
+}
+.delani{
+    text-align: center;
+}
+.handles{
+    display: flex;
+    justify-content:center;
+    
+}
+.do{
+    text-align: center;
+}
+.port{
+    box-sizing: border-box;
+    border-style:none;
+}
+.w-100{
+        padding-bottom:50px;
+    
+}
+input[type=text]{
+        border:2px solid white;
+        background: transparent;
+        color: white;
+        
+}
+input[type=email]{
+        border:2px solid white;
+        background:transparent; 
+}
+form{
+    align-items: center;
+    margin-left: 300px;
+    width:60%;
+    padding-left:10px; 
+}
+input[type=text]::placeholder{
+    color: antiquewhite;
+}
+input[type=email]::placeholder{
+    color: antiquewhite;
+}
+input[type=message]::placeholder{
+    color:white;
+    
+
+}
+#message{
+    width: 600px;
+    height: 200px;
 }
