@@ -1,0 +1,11 @@
+.welcome {
+    background-image:url("../images/h_img.jpg");
+    text-align: center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.about{
+    text-align: center;
+}
