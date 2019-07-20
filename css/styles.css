@@ -80,6 +80,15 @@ input[type=message]::placeholder{
 
 }
 #message{
-    width: 600px;
+    width:600px;
     height: 200px;
+}
+.infor{
+    display: none;
+}
+.info{
+    display: none;
+}
+.inf{
+    display: none;
 }
