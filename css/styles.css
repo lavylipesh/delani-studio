@@ -2,10 +2,9 @@
     background-image:url("../images/h_img.jpg");
     text-align: center;
     color: white;
-    height: 665px;
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
+    
 }
 .welcome img:last-child{
     padding-top: 200px;
@@ -18,8 +17,6 @@
     height: 350px;
     text-align: center;
     color: white;
-    padding-top: 150px;
-    padding-bottom: 200px;
     background-repeat: no-repeat;
     
 }

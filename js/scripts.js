@@ -33,7 +33,7 @@ $(document).ready(function(){
       $("#productimage").slideDown();
       $(".info3").hide();
     });
-    $("#image1").mouseover(function(){
+    /*$("#image1").mouseover(function(){
         $("#overlay").show();
       }).mouseout(function(){
         $("#overlay").hide();
