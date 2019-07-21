@@ -83,7 +83,7 @@ $(document).ready(function(){
         else {
           alert("Fill in all your details please!")
         }
-         /*event.preventDefault();
+        event.preventDefault();
       });
 
 });
