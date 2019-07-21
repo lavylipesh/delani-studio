@@ -77,10 +77,10 @@ $(document).ready(function(){
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("input#message").val();
-        /*if ($("input#name").val() && $("input#email").val() && $("input#message").val()!= "" ){
+        if ($("input#name").val() && $("input#email").val() && $("input#message").val()!= "" ){
           alert (name + ", We have received your message. Thank you for contacting us.");
         }
-        else {
+        /*else {
           alert("Fill in all your details please!")
         }
          event.preventDefault();
