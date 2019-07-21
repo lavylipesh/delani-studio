@@ -53,7 +53,7 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#overlay4").hide();
       });
-      /*$("#image5").mouseover(function(){
+      $("#image5").mouseover(function(){
         $("#overlay5").show();
       }).mouseout(function(){
         $("#overlay5").hide();
@@ -63,7 +63,7 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#overlay6").hide();
       });
-      $("#image7").mouseover(function(){
+      /*$("#image7").mouseover(function(){
         $("#overlay7").show();
       }).mouseout(function(){
         $("#overlay7").hide();
