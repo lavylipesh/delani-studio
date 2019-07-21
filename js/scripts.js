@@ -73,11 +73,11 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#overlay8").hide();
       });
-      /*$("form#form").submit(function(event){
+      $("form#form").submit(function(event){
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("input#message").val();
-        if ($("input#name").val() && $("input#email").val() && $("input#message").val()!= "" ){
+        /*if ($("input#name").val() && $("input#email").val() && $("input#message").val()!= "" ){
           alert (name + ", We have received your message. Thank you for contacting us.");
         }
         else {
