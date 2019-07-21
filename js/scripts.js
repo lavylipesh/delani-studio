@@ -63,7 +63,7 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#overlay6").hide();
       });
-      /*$("#image7").mouseover(function(){
+      $("#image7").mouseover(function(){
         $("#overlay7").show();
       }).mouseout(function(){
         $("#overlay7").hide();
@@ -73,7 +73,7 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#overlay8").hide();
       });
-      $("form#form").submit(function(event){
+      /*$("form#form").submit(function(event){
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("input#message").val();
