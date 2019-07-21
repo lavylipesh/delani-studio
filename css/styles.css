@@ -2,7 +2,7 @@
     background-image:url("../images/h_img.jpg");
     text-align: center;
     color: white;
-    height: 750px;
+    height: 665px;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -83,12 +83,12 @@ input[type=message]::placeholder{
     width:600px;
     height: 200px;
 }
-.infor{
+/* .info1{
     display: none;
 }
-.info{
+.info2{
     display: none;
 }
-.inf{
+.info3{
     display: none;
-}
+} */

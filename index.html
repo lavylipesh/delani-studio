@@ -7,7 +7,7 @@
     <title>DELANI</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
     <body>
         <div class="welcome">
@@ -36,29 +36,29 @@ Then we help translate them into effective and elegant solutions.</P>
            
             <div class="row">
             <div class="col-md-4">
-            <img src="images/design_icon.png">
+            <img id="designimage"src="images/design_icon.png" >
             <figcaption>DESIGN</figcaption>
-            <div class="infor">
-                <p id="design">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            <div class="info1">
+                <p id="info1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br><br>
                         Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
                         </p>
             </div>
         </div>
             <div class="col-md-4">
         
-            <img src="images/dev_icon.png">
+            <img id="developmentimage" src="images/dev_icon.png" >
             <figcaption>DEVELOPMENT</figcaption>
-            <div class="info">
-                <p id="dev">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            <div class="info2">
+                <p id="info2">All engineers are fluent in the latest enterprise, mobile and web development technologies.<br><br>
                         They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
                         </p>
             </div>
         </div>
             <div class="col-md-4">
-            <img src="images/product_icon.png">
+            <img id="productimage" src="images/product_icon.png" >
             <figcaption>PRODUCT MANAGEMENT</figcaption>
-              <div class="inf">
-                  <p id="prod">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+              <div class="info3">
+                  <p id="info3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br><br> 
                         This iterative process allows for changes as business requirements evolve.</p>
               </div>
         </div>
@@ -69,30 +69,39 @@ Then we help translate them into effective and elegant solutions.</P>
             <div class="port">
             <div class="container">
             <h2 class="text-center">PORTFOLIO</h2>
-            <div class="row ">
-            <div class="col-md-3">
+            <div class="row " id="port">
+            <div class="col-md-3" id="image1">
             <img  class="w-100" src="images/work4.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            <div class="col-md-3" id="image2" >
             <img  class="w-100" src="images/work3.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            
+            <div class="col-md-3" id="image3">
             <img class="w-100" src="images/work2.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            <div class="col-md-3" id="image4">
             <img class="w-100" src="images/work1.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            <div class="col-md-3" id="image5">
             <img class="w-100" src="images/work5.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            <div class="col-md-3" id="image6">
             <img class="w-100" src="images/work6.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            <div class="col-md-3" id="image7">
             <img class="w-100" src="images/work7.jpg" ></div>
-            <div class="col-md-3">
+            <p id="overlay"class="text"></p>
+            <div class="col-md-3" id="image8">
             <img class="w-100" src="images/work8.jpg" ></div>
-            </div>
+            <p id="overlay"class="text"></p>
+        </div>
             </div>
             </div><br><br>
             <div class="contact">
                <div class="container">
                 <h2>CONTACT US</h2>
-                <form class="form-inline">
+                <form class="form-inline" id="form">
                     <div class="form-group">
                       
                       <input type="text" class="form-control" id="name" placeholder="Name...">
@@ -103,13 +112,19 @@ Then we help translate them into effective and elegant solutions.</P>
 
                     </div><br><br><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="message" placeholder="Your message here">
+                            <input type="text" class="form-control" id="message" placeholder="Your message here...">
+
+                            <button type="submit">Submit</button>
+
+                    
+
                     </div>
 
                 </form>
                 </div> 
             </div>
             <br><br><br>
+            
             <div class="handles">
             <img src="images/twitter.png" >
             <img src="images/dribble.png" >
@@ -125,11 +140,8 @@ Then we help translate them into effective and elegant solutions.</P>
             <p>DELANI STUDIO<br>2019</p>
             </div>
             
-            
-            
-
-
-        
     </body>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
 </html>
     
