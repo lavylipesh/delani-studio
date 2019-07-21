@@ -33,7 +33,7 @@ $(document).ready(function(){
       $("#productimage").slideDown();
       $(".info3").hide();
     });
-    /*$("#image1").mouseover(function(){
+    $("#image1").mouseover(function(){
         $("#overlay").show();
       }).mouseout(function(){
         $("#overlay").hide();
@@ -53,7 +53,7 @@ $(document).ready(function(){
       }).mouseout(function(){
         $("#overlay4").hide();
       });
-      $("#image5").mouseover(function(){
+      /*$("#image5").mouseover(function(){
         $("#overlay5").show();
       }).mouseout(function(){
         $("#overlay5").hide();
