@@ -33,5 +33,4 @@ If you need any information on my projects please contact me at (lilibethlangat@
 * HTML
 * CSS
 * JAVASCRIPT 
-* JQUERY
 
