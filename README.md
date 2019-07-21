@@ -27,7 +27,7 @@ https://lavylipesh.github.io/delani-studio
 Copyright (c) 2019 **Lilibeth Chepngetich**
 
 ## Contact Information
-If you need any information on my projects please contact me at (lilibethlangat@yahoo.com)
+If you need any information on my projects please contact me  (lilibethlangat@yahoo.com)
 
 ## Technologies used
 * HTML
