@@ -7,7 +7,7 @@
 
 ## Description
 
-
+This is an application that will be able to receive your request on what you need and send you feedback based on your requests.
 
 **Installation/Setup instruction**
 
@@ -32,5 +32,6 @@ If you need any information on my projects please contact me at (lilibethlangat@
 ## Technologies used
 * HTML
 * CSS
-* JAVASCRIPT
+* JAVASCRIPT 
+* JQUERY
 
