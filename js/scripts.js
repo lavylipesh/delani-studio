@@ -80,10 +80,10 @@ $(document).ready(function(){
         if ($("input#name").val() && $("input#email").val() && $("input#message").val()!= "" ){
           alert (name + ", We have received your message. Thank you for contacting us.");
         }
-        /*else {
+        else {
           alert("Fill in all your details please!")
         }
-         event.preventDefault();
+         /*event.preventDefault();
       });
 
 });
