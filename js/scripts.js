@@ -58,7 +58,7 @@ $(document).ready(function(){
       $("#image5").mouseover(function(){
         $("#5").show();
       }).mouseout(function(){
-        $("#overlay5").hide();
+        $("#5").hide();
       });
       $("#image6").mouseover(function(){
         $("#6").show();
