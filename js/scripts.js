@@ -33,6 +33,8 @@ $(document).ready(function(){
       $("#productimage").slideDown();
       $(".info3").hide();
     });
+});
+    $(document).ready(function(){
     $("#image1").mouseover(function(){
         $("#overlay").show();
       }).mouseout(function(){
@@ -78,7 +80,7 @@ $(document).ready(function(){
         var email = $("input#email").val();
         var message = $("input#message").val();
         if ($("input#name").val() && $("input#email").val() && $("input#message").val()!= "" ){
-          alert (name + ", We have received your message. Thank you for contacting us.");
+          alert (name + ", we have received your message. Thank you for contacting us.");
         }
         else {
           alert("Fill in all your details please!")
