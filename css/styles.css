@@ -71,7 +71,7 @@ input[type=text]::placeholder{
 input[type=email]::placeholder{
     color: antiquewhite;
 }
-input[type=message]::placeholder{
+textarea[name=Message]::placeholder{
     color:white;
     
 
