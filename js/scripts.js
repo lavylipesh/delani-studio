@@ -33,47 +33,47 @@ $(document).ready(function(){
       $("#productimage").slideDown();
       $(".info3").hide();
     });
-});
-    $(document).ready(function(){
+
+    
     $("#image1").mouseover(function(){
-        $("#overlay").show();
+        $("#1").show();
       }).mouseout(function(){
-        $("#overlay").hide();
+        $("#1").hide();
       });
       $("#image2").mouseover(function(){
-        $("#overlay2").show();
+        $("#2").show();
       }).mouseout(function(){
-        $("#overlay2").hide();
+        $("#2").hide();
       });
       $("#image3").mouseover(function(){
-        $("#overlay3").show();
+        $("#3").show();
       }).mouseout(function(){
-        $("#overlay3").hide();
+        $("#3").hide();
       });
       $("#image4").mouseover(function(){
-        $("#overlay4").show();
+        $("#4").show();
       }).mouseout(function(){
-        $("#overlay4").hide();
+        $("#4").hide();
       });
       $("#image5").mouseover(function(){
-        $("#overlay5").show();
+        $("#5").show();
       }).mouseout(function(){
         $("#overlay5").hide();
       });
       $("#image6").mouseover(function(){
-        $("#overlay6").show();
+        $("#6").show();
       }).mouseout(function(){
-        $("#overlay6").hide();
+        $("#6").hide();
       });
       $("#image7").mouseover(function(){
-        $("#overlay7").show();
+        $("#7").show();
       }).mouseout(function(){
-        $("#overlay7").hide();
+        $("#7").hide();
       });
       $("#image8").mouseover(function(){
-        $("#overlay8").show();
+        $("#8").show();
       }).mouseout(function(){
-        $("#overlay8").hide();
+        $("#8").hide();
       });
       $("form#form").submit(function(event){
         var name = $("input#name").val();
