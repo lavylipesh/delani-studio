@@ -83,4 +83,6 @@ textarea[name=Message]{
     width:600px;
     height: 200px;
 }
-
+#one{
+    display:none;
+}
