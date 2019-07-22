@@ -83,17 +83,17 @@ textarea[name=Message]{
     width:600px;
     height: 200px;
 }
-#mouse-bounce{
+.mouse-bounce{
     padding-top : 22px;
     margin-top: 10%;
     padding-bottom: 30px; 
     animation-iteration-count: infinite; 
-  }
-  #mouse-bounce {
+}
+.mouse-bounce {
     animation: bounce 2s infinite;
-  }
+}
   
-  @keyframes bounce {
+@keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
     }
@@ -103,8 +103,4 @@ textarea[name=Message]{
     60% {
       transform: translateY(-45px);
     }
-  }
-  
-  
-  
-
+}
