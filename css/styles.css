@@ -83,20 +83,7 @@ textarea[name=Message]{
     width:600px;
     height: 200px;
 }
-.mouse
-{
-  position: relative;
-  bottom: -2rem;
-  left: 50%;
-  margin-left:-20px;
-  width: 40px;
-  height: 40px;
-  background-image: url("../images/mouse_click.png");
-  background-size:contain;
-}
-.bounce {
-    animation: bounce 2s infinite;
-  }
+
   
   
 
