@@ -7,7 +7,7 @@
 
 ## Description
 
-
+This is an application that will be able to receive your request on what you need and send you feedback based on your requests.
 
 **Installation/Setup instruction**
 
@@ -27,10 +27,10 @@ https://lavylipesh.github.io/delani-studio
 Copyright (c) 2019 **Lilibeth Chepngetich**
 
 ## Contact Information
-If you need any information on my projects please contact me at (lilibethlangat@yahoo.com)
+If you need any information on my projects please contact me  (lilibethlangat@yahoo.com)
 
 ## Technologies used
 * HTML
 * CSS
-* JAVASCRIPT
+* JAVASCRIPT 
 
