@@ -83,19 +83,4 @@ textarea[name=Message]{
     width:600px;
     height: 200px;
 }
-#image1 {
-    float: left;
-    position: relative;
-    margin: 5px;
-    color: #333;
-}
-#image1.image-cap {
-    display: none;
-    opacity: 0.8;
-    background:#cae5c1;
-    width: 195px;
-    position: absolute;
-    bottom: 0px;
-    padding: 5px;
-    height: 100%;
-}
+
