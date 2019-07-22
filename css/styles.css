@@ -66,15 +66,17 @@ form{
     padding-left:10px; 
 }
 input[type=text]::placeholder{
-    color: antiquewhite;
+    color: white;
 }
 input[type=email]::placeholder{
-    color: antiquewhite;
+    color: white;
 }
 textarea[name=Message]::placeholder{
     color:white;
-    
-
+}
+textarea[name=Message]{
+    border:2px solid white;
+    background:transparent; 
 }
 #message{
     width:600px;
