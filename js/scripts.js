@@ -36,44 +36,44 @@ $(document).ready(function(){
 
     
     $("#image1").mouseover(function(){
-        $("#1").show();
+        $("#one").show();
       }).mouseout(function(){
-        $("#1").hide();
+        $("#one").hide();
       });
       $("#image2").mouseover(function(){
-        $("#2").show();
+        $("#two").show();
       }).mouseout(function(){
-        $("#2").hide();
+        $("#two").hide();
       });
       $("#image3").mouseover(function(){
-        $("#3").show();
+        $("#three").show();
       }).mouseout(function(){
-        $("#3").hide();
+        $("#three").hide();
       });
       $("#image4").mouseover(function(){
-        $("#4").show();
+        $("#four").show();
       }).mouseout(function(){
-        $("#4").hide();
+        $("#four").hide();
       });
       $("#image5").mouseover(function(){
-        $("#5").show();
+        $("#five").show();
       }).mouseout(function(){
-        $("#5").hide();
+        $("#five").hide();
       });
       $("#image6").mouseover(function(){
-        $("#6").show();
+        $("#six").show();
       }).mouseout(function(){
-        $("#6").hide();
+        $("#six").hide();
       });
       $("#image7").mouseover(function(){
-        $("#7").show();
+        $("#seven").show();
       }).mouseout(function(){
-        $("#7").hide();
+        $("#seven").hide();
       });
       $("#image8").mouseover(function(){
-        $("#8").show();
+        $("#eight").show();
       }).mouseout(function(){
-        $("#8").hide();
+        $("#eight").hide();
       });
       $("form#form").submit(function(event){
         var name = $("input#name").val();
